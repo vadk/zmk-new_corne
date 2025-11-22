@@ -101,10 +101,10 @@
         raise_layer {
             display-name = "FN_NAVY";
             bindings = <
-&kp F1           &kp F2         &kp F3        &kp F4            &kp F5          &kp F6                               &mmv MOVE_UP                     &kp F7   &kp F8                &kp F9                         &kp F10                  &kp F11               &kp F12
-&kp PAUSE_BREAK  &kp RIGHT_WIN  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &none    &hrm LEFT_SHIFT LEFT  &hrm RIGHT_CONTROL DOWN_ARROW  &hrm RIGHT_ALT UP_ARROW  &hrm RIGHT_WIN RIGHT  &kp PRINTSCREEN
-&trans           &out OUT_USB   &mkp LCLK     &mkp MCLK         &mkp RCLK       &none      &trans                    &mmv MOVE_DOWN                   &kp INS  &kp HOME              &kp PAGE_DOWN                  &kp PG_UP                &kp END               &kp K_CONTEXT_MENU
-                                              &trans            &trans          &kp SPACE                                                             &kp RET  &trans                &trans
+&kp F1           &kp F2         &kp F3        &kp F4            &kp F5          &kp F6                                    &mmv MOVE_UP                     &kp F7   &kp F8                &kp F9                         &kp F10                  &kp F11               &kp F12
+&kp PAUSE_BREAK  &kp RIGHT_WIN  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &msc SCRL_UP              &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &none    &hrm LEFT_SHIFT LEFT  &hrm RIGHT_CONTROL DOWN_ARROW  &hrm RIGHT_ALT UP_ARROW  &hrm RIGHT_WIN RIGHT  &kp PRINTSCREEN
+&trans           &out OUT_USB   &mkp LCLK     &mkp MCLK         &mkp RCLK       &msc SCRL_DOWN  &trans                    &mmv MOVE_DOWN                   &kp INS  &kp HOME              &kp PAGE_DOWN                  &kp PG_UP                &kp END               &kp K_CONTEXT_MENU
+                                              &trans            &trans          &kp SPACE                                                                  &kp RET  &trans                &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
