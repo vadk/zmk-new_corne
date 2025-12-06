@@ -43,12 +43,12 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: ']', s: '}'}
-  - {t: LEFT WIN, h: SUS_MS}
+  - {t: LEFT WIN, h: FN_NAVY}
   - SYM_NM
-  - {t: '$$mdi:keyboard-space$$', h: FN_NAVY}
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', h: SUS_MS}
-  - {t: '$$mdi:backspace$$', h: FN_NAVY}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: SYM_NM}
+  - {t: '$$mdi:backspace$$', h: SYM_NM}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: FN_NAVY}
   SYM_NM:
   - '~'
   - '!'
@@ -96,8 +96,8 @@ layers:
   - {type: held}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:backspace-reverse-outline$$', type: held alternate}
+  - {t: '$$mdi:backspace$$', type: held alternate}
+  - $$mdi:backspace-reverse-outline$$
   FN_NAVY:
   - F1
   - F2
@@ -122,9 +122,9 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:arrow-down-bold$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:arrow-up-bold$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:arrow-right-bold$$', h: '$$mdi:apple-keyboard-option$$'}
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-right-bold$$
   - {t: Ins, h: RIGHT WIN}
   - PAUSE BREAK
   - {t: '$$mdi:transfer$$', type: trans}
@@ -141,12 +141,12 @@ layers:
   - END
   - PRINTSCREEN
   - CONTEXT MENU
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:keyboard-space$$', type: held}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {type: held alternate}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-space$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:apple-keyboard-option$$', type: held alternate}
   SUS_MS:
   - $$mdi:bluetooth-off$$
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
@@ -190,10 +190,10 @@ layers:
   - $$mdi:pan-right$$
   - SCROLLLOCK
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
