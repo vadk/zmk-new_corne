@@ -29,7 +29,7 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ;, h: RIGHT WIN, s: ':'}
   - {t: '''', s: '"'}
-  - '&td_shift'
+  - {t: LEFT WIN, h: '$$mdi:apple-keyboard-shift$$'}
   - Z
   - X
   - C
@@ -43,7 +43,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: ']', s: '}'}
-  - {t: LEFT WIN, h: FN_NAVY}
+  - {t: Ins, h: FN_NAVY}
   - SYM_NM
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', h: SUS_MS}
@@ -86,12 +86,12 @@ layers:
   - {t: \, s: '|'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - '{'
-  - '}'
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - +
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
   - {t: '=', s: +}
+  - +
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - $$mdi:keyboard-space$$
@@ -125,13 +125,13 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: Ins, h: RIGHT WIN}
-  - PAUSE BREAK
+  - RGUI
+  - PRINTSCREEN
   - {t: '$$mdi:transfer$$', type: trans}
-  - OUT USB
+  - Ins
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - PAUSE BREAK
   - $$mdi:pan-down$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
@@ -139,7 +139,7 @@ layers:
   - PgDn
   - PgUp
   - END
-  - PRINTSCREEN
+  - Ins
   - CONTEXT MENU
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -148,7 +148,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:apple-keyboard-option$$', type: held alternate}
   SUS_MS:
-  - $$mdi:bluetooth-off$$
+  - $$mdi:keyboard-esc$$
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
@@ -161,7 +161,7 @@ layers:
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - $$mdi:volume-off$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:bluetooth-off$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
