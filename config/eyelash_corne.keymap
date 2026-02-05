@@ -101,7 +101,7 @@
         raise_layer {
             display-name = "FN_NAVY";
             bindings = <
-&kp F1  &kp F2         &kp F3        &kp F4            &kp F5           &kp F6                                   &mmv MOVE_UP                     &kp F7          &hrm F8 RIGHT_SHIFT  &hrm F9 RIGHT_CONTROL  &hrm F10 RIGHT_ALT  &kp F11       &kp F12
+&kp F1  &kp F2         &kp F3        &kp F4            &kp F5           &kp F6                                   &mmv MOVE_UP                     &kp F7          &hrm RIGHT_SHIFT F8  &hrm RIGHT_CONTROL F9  &hrm RIGHT_ALT F10  &kp F11       &kp F12
 &trans  &kp RIGHT_WIN  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT   &msc SCRL_UP             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT_ARROW  &kp DOWN_ARROW       &kp UP_ARROW           &kp RIGHT_ARROW     &kp LEFT_GUI  &kp PRINTSCREEN
 &trans  &kp INSERT     &none         &none             &kp PAUSE_BREAK  &msc SCRL_DOWN  &none                    &mmv MOVE_DOWN                   &kp HOME        &kp PAGE_DOWN        &kp PAGE_UP            &kp END             &kp INSERT    &kp K_CONTEXT_MENU
                                      &trans            &trans           &kp SPACE                                                                 &kp ENTER       &kp BACKSPACE        &kp DELETE
