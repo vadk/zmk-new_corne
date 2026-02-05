@@ -77,10 +77,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp ESCAPE                &kp Q            &kp W            &kp E         &kp R              &kp T                         &kp UP                &kp Y        &kp U               &kp I         &kp O             &kp P                &kp LEFT_BRACKET
-&kp TAB                   &hrm LEFT_WIN A  &hrm LEFT_ALT S  &hrm RCTRL D  &hrm LEFT_SHIFT F  &kp G               &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &hrm RIGHT_SHIFT J  &hrm RCTRL K  &hrm RIGHT_ALT L  &hrm RIGHT_WIN SEMI  &kp SQT
-&hrm LEFT_SHIFT LEFT_WIN  &kp Z            &kp X            &kp C         &kp V              &kp B      &none              &kp DOWN              &kp N        &kp M               &kp COMMA     &kp DOT           &kp FSLH             &kp RIGHT_BRACKET
-                                                            &lt 2 INSERT  &mo 1              &kp SPACE                                           &lt 3 ENTER  &lt 1 BACKSPACE     &lt 2 DELETE
+&kp ESCAPE  &kp Q            &kp W            &kp E         &kp R              &kp T                         &kp UP                &kp Y        &kp U               &kp I         &kp O             &kp P                &kp LEFT_BRACKET
+&kp TAB     &hrm LEFT_WIN A  &hrm LEFT_ALT S  &hrm RCTRL D  &hrm LEFT_SHIFT F  &kp G               &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &hrm RIGHT_SHIFT J  &hrm RCTRL K  &hrm RIGHT_ALT L  &hrm RIGHT_WIN SEMI  &kp SQT
+&kp GRAVE   &kp Z            &kp X            &kp C         &kp V              &kp B      &none              &kp DOWN              &kp N        &kp M               &kp COMMA     &kp DOT           &kp FSLH             &kp RIGHT_BRACKET
+                                              &lt 2 INSERT  &mo 1              &kp SPACE                                           &lt 3 ENTER  &lt 1 BACKSPACE     &lt 2 DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -89,10 +89,10 @@
         lower_layer {
             display-name = "SYM_NM";
             bindings = <
-&kp TILDE  &kp EXCL          &kp AT            &kp HASH       &kp DOLLAR          &kp PERCENT                             &mmv MOVE_UP                     &kp CARET         &kp AMPS             &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER
-&kp GRAVE  &hrm LEFT_WIN N1  &hrm LEFT_ALT N2  &hrm LCTRL N3  &hrm LEFT_SHIFT N4  &kp N5                  &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp N6            &hrm RIGHT_SHIFT N7  &hrm RCTRL N8  &hrm RIGHT_ALT N9     &hrm RIGHT_WIN N0      &kp MINUS
-&trans     &kp CAPS          &kp SLASH         &kp QUESTION   &kp PIPE            &kp BACKSLASH  &none                    &mmv MOVE_DOWN                   &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp COMMA      &kp DOT               &kp EQUAL              &kp PLUS
-                                               &trans         &trans              &kp SPACE                                                                &kp ENTER         &kp BACKSPACE        &kp DEL
+&trans  &kp EXCL          &kp AT            &kp HASH       &kp DOLLAR          &kp PERCENT                             &mmv MOVE_UP                     &kp CARET         &kp AMPS             &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER
+&trans  &hrm LEFT_WIN N1  &hrm LEFT_ALT N2  &hrm LCTRL N3  &hrm LEFT_SHIFT N4  &kp N5                  &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp N6            &hrm RIGHT_SHIFT N7  &hrm RCTRL N8  &hrm RIGHT_ALT N9     &hrm RIGHT_WIN N0      &kp MINUS
+&trans  &kp CAPS          &kp SLASH         &kp QUESTION   &kp PIPE            &kp BACKSLASH  &none                    &mmv MOVE_DOWN                   &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp COMMA      &kp DOT               &kp EQUAL              &kp PLUS
+                                            &trans         &trans              &kp SPACE                                                                &kp ENTER         &kp BACKSPACE        &kp DEL
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -101,10 +101,10 @@
         raise_layer {
             display-name = "FN_NAVY";
             bindings = <
-&kp F1  &kp F2         &kp F3        &kp F4            &kp F5           &kp F6                                   &mmv MOVE_UP                     &kp F7           &kp F8             &kp F9         &kp F10          &kp F11     &kp F12
-&trans  &kp RIGHT_WIN  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT   &msc SCRL_UP             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT_ARROW   &kp DOWN_ARROW     &kp UP_ARROW   &kp RIGHT_ARROW  &kp RGUI    &kp PRINTSCREEN
-&trans  &kp INSERT     &none         &none             &kp PAUSE_BREAK  &msc SCRL_DOWN  &none                    &mmv MOVE_DOWN                   &kp HOME         &kp PAGE_DOWN      &kp PAGE_UP    &kp END          &kp INSERT  &kp K_CONTEXT_MENU
-                                     &trans            &trans           &kp SPACE                                                                 &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT
+&kp F1  &kp F2         &kp F3        &kp F4            &kp F5           &kp F6                                   &mmv MOVE_UP                     &kp F7          &hrm F8 RIGHT_SHIFT  &hrm F9 RIGHT_CONTROL  &hrm F10 RIGHT_ALT  &kp F11       &kp F12
+&trans  &kp RIGHT_WIN  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT   &msc SCRL_UP             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT_ARROW  &kp DOWN_ARROW       &kp UP_ARROW           &kp RIGHT_ARROW     &kp LEFT_GUI  &kp PRINTSCREEN
+&trans  &kp INSERT     &none         &none             &kp PAUSE_BREAK  &msc SCRL_DOWN  &none                    &mmv MOVE_DOWN                   &kp HOME        &kp PAGE_DOWN        &kp PAGE_UP            &kp END             &kp INSERT    &kp K_CONTEXT_MENU
+                                     &trans            &trans           &kp SPACE                                                                 &kp ENTER       &kp BACKSPACE        &kp DELETE
             >;
 
             sensor-bindings = <&scroll_encoder>;
