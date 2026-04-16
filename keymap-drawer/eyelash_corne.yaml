@@ -99,19 +99,19 @@ layers:
   - {t: '$$mdi:backspace$$', type: held alternate}
   - $$mdi:backspace-reverse-outline$$
   FN_NAVY:
+  - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
   - F3
   - F4
   - F5
-  - F6
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - F7
-  - {t: F8, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: F9, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: F10, h: '$$mdi:apple-keyboard-option$$'}
+  - F6
+  - {t: F7, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: F8, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: F9, h: '$$mdi:apple-keyboard-option$$'}
+  - F10
   - F11
-  - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - RIGHT WIN
   - $$mdi:apple-keyboard-option$$
@@ -126,11 +126,11 @@ layers:
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   - $$mdi:apple-keyboard-command$$
-  - PRINTSCREEN
+  - F12
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ins
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - PRINTSCREEN
   - PAUSE BREAK
   - $$mdi:pan-down$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
